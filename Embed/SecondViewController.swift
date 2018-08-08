@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SecondViewController.swift
 //  Embed
 //
 //  Created by Ishak Charles on 04/07/18.
@@ -8,14 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SecondViewController: UIViewController {
 
     @IBOutlet weak var myWebView: UIWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
         
-        getVideo(videoCode: "TnpTcrtsN3U")
+        getVideo(videoCode: "j6nevGNYTkA")
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -30,7 +32,14 @@ class ViewController: UIViewController {
     }
     
 
+    /*
+    // MARK: - Navigation
 
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+    }
+    */
 
 }
-

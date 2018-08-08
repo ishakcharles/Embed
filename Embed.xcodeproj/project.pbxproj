@@ -12,6 +12,7 @@
 		5A348EB020ED2768006559DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A348EAE20ED2768006559DB /* Main.storyboard */; };
 		5A348EB220ED2769006559DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A348EB120ED2769006559DB /* Assets.xcassets */; };
 		5A348EB520ED2769006559DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A348EB320ED2769006559DB /* LaunchScreen.storyboard */; };
+		5A348EBD20ED328B006559DB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A348EBC20ED328B006559DB /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5A348EB120ED2769006559DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A348EB420ED2769006559DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A348EB620ED2769006559DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A348EBC20ED328B006559DB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				5A348EAA20ED2768006559DB /* AppDelegate.swift */,
 				5A348EAC20ED2768006559DB /* ViewController.swift */,
 				5A348EAE20ED2768006559DB /* Main.storyboard */,
+				5A348EBC20ED328B006559DB /* SecondViewController.swift */,
 				5A348EB120ED2769006559DB /* Assets.xcassets */,
 				5A348EB320ED2769006559DB /* LaunchScreen.storyboard */,
 				5A348EB620ED2769006559DB /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A348EBD20ED328B006559DB /* SecondViewController.swift in Sources */,
 				5A348EAD20ED2768006559DB /* ViewController.swift in Sources */,
 				5A348EAB20ED2768006559DB /* AppDelegate.swift in Sources */,
 			);
